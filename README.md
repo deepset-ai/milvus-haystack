@@ -4,10 +4,13 @@
 ## Installation
 
 ```console
-pip install -e "git+https://github.com/deepset-ai/haystack-extras.git#egg=milvus_documentstore&subdirectory=stores/milvus-documentstore"
+pip install -e milvus-haystack
 ```
+
 ## Usage
-You can find the package in your code as `milvus_documentstore`. Then, you can add a document like this:
+First, to start up a Milvus service, follow the ['Start Milvus'](https://milvus.io/docs/install_standalone-docker.md#Start-Milvus) instructions in the documentation. 
+
+Then, to use the `MilvusDocumentStore` in a Haystack pipeline"
 
 ```py
 from haystack import Document
